@@ -1,0 +1,96 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+#skills-attack{
+    position: absolute;
+    border: 0px;
+    height: 20vh;
+    background: #e2e2e2;
+    bottom: 0px;
+    width: 100vw;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button{
+    width: 50%;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border: 1px solid gainsboro;
+}
+
+#hud{
+    height: 80vh;
+    background-image: url('/img/bg.png');
+    background-size: contain;
+    position: relative;
+}
+img{
+    position: absolute;
+    width: 150px;
+}
+
+#own{
+    left: 15px;
+    bottom: 0px;
+}
+
+#ia{
+    right: 15px;
+    bottom: 0px;
+}
+
+.life{
+    background: gainsboro;
+    height: 15px;
+    width: 175px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 3px #00000030;
+}
+
+
+#ownHud{
+    position: absolute;
+    bottom: 0px;
+    height: 250px;
+}
+#iaHud{
+    position: absolute;
+    bottom: 0px;
+    height: 250px;
+    right: 0px;
+}
+
+.bar-life{
+    background: red;
+    height: 15px;
+    border-radius: 10px;
+    transform-origin: left;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+small{
+    font-size: 11px!important;
+}
+
+#info{
+    z-index: 999999;
+    position: absolute;
+    top: 0px;
+    width: 300px;
+    text-align: center;
+    left: calc(50% - 150px);
+    height: 50px;
+    top: 0px;
+    color: red;
+    background: #f3f3f3;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    box-shadow: 0px 3px 8px #00000017;
+}
